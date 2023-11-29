@@ -5,11 +5,11 @@ If you are a poor student, you might find yourself in a situation where you don'
 
 ## Development container
 
-The dev. container is based on the [platformio-vscode-devcontainer](https://github.com/prenone/platformio-vscode-devcontainer/tree/master) project made by pernone
+The dev. container is based on the [platformio-vscode-devcontainer](https://github.com/prenone/platformio-vscode-devcontainer/tree/master) project made by pernone.
 
 ### Prerequisites
 
-On Linux (the correct operating system), you need to follow these [instuctions](https://docs.platformio.org/en/latest/core/installation/udev-rules.html) to allow get access so you can flash the device.
+On Linux (the correct operating system), you need to follow these [instructions](https://docs.platformio.org/en/latest/core/installation/udev-rules.html) to allow access so you can flash the device.
 
 **Note:** The instructions should be performed on the host machine, not in the container.
 
@@ -17,16 +17,16 @@ On Linux (the correct operating system), you need to follow these [instuctions](
 
 *These instructions are copied from the original repository*
 
-After following these steps the contents of the `.devcontainer` folder in your project can be adapted to meet your needs.
+After following these steps, the contents of your project's `.devcontainer` folder can be adapted to meet your needs.
 
 1. Finally open the **Command Palette** and run **Remote-Containers: Reopen Folder in Container** to start using the definition.
 
 **Notes:** This container runs in `--privileged` mode.
 
-## Todo
+## TODO
 
 - [x] Print the temperature and humidity to serial.
 - [x] Print the values to the display.
-- [ ] Implement a "DVD logo bounce"-animation to avoid OLED burn in.
+- [ ] Implement a "DVD logo bounce"-animation to avoid OLED burn-in.
 - [ ] Port to ESP32 to be able to view the value on a website
-- [ ] Change sensors to someting more reliable, maybe a [100K 3950 GLASS Thermistor](https://www.trianglelab.net/products/100k-3950-glass-thermistor)
+- [ ] Change sensors to something more reliable, maybe a [100K 3950 GLASS Thermistor](https://www.trianglelab.net/products/100k-3950-glass-thermistor)
